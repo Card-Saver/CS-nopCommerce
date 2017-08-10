@@ -1,0 +1,33 @@
+C:\Users\Jack Arthur\Documents\tempbuildloc\Description.txt
+C:\Users\Jack Arthur\Documents\tempbuildloc\web.config
+C:\Users\Jack Arthur\Documents\tempbuildloc\Views\Configure.cshtml
+C:\Users\Jack Arthur\Documents\tempbuildloc\Nop.Plugin.Payments.Cardstream.dll.config
+C:\Users\Jack Arthur\Documents\tempbuildloc\Nop.Plugin.Payments.Cardstream.dll
+C:\Users\Jack Arthur\Documents\tempbuildloc\Nop.Plugin.Payments.Cardstream.pdb
+C:\Users\Jack Arthur\Documents\NOPCommerce2\Nop.Plugin.Payments.Cardstream\obj\Debug\Nop.Plugin.Payments.CardstreamHosted.csprojResolveAssemblyReference.cache
+C:\Users\Jack Arthur\Documents\NOPCommerce2\Nop.Plugin.Payments.Cardstream\obj\Debug\Nop.Plugin.Payments.CardstreamHosted.dll
+C:\Users\Jack Arthur\Documents\NOPCommerce2\Nop.Plugin.Payments.Cardstream\obj\Debug\Nop.Plugin.Payments.CardstreamHosted.pdb
+C:\Users\Jack Arthur\Documents\NOPCommerce2\Presentation\Nop.Web\Plugins\Payments.CardstreamHosted\Views\Failed.cshtml
+C:\Users\Jack Arthur\Documents\NOPCommerce2\Presentation\Nop.Web\Plugins\Payments.CardstreamHosted\Description.txt
+C:\Users\Jack Arthur\Documents\NOPCommerce2\Presentation\Nop.Web\Plugins\Payments.CardstreamHosted\Web.config
+C:\Users\Jack Arthur\Documents\NOPCommerce2\Presentation\Nop.Web\Plugins\Payments.CardstreamHosted\Views\Configure.cshtml
+C:\Users\Jack Arthur\Documents\NOPCommerce2\Presentation\Nop.Web\Plugins\Payments.CardstreamHosted\Views\Web.config
+C:\Users\Jack Arthur\Documents\NOPCommerce2\Presentation\Nop.Web\Plugins\Payments.CardstreamHosted\logo.jpg
+C:\Users\Jack Arthur\Documents\NOPCommerce2\Presentation\Nop.Web\Plugins\Payments.CardstreamHosted\Nop.Plugin.Payments.CardstreamHosted.dll.config
+C:\Users\Jack Arthur\Documents\NOPCommerce2\Presentation\Nop.Web\Plugins\Payments.CardstreamHosted\Nop.Plugin.Payments.CardstreamHosted.dll
+C:\Users\Jack Arthur\Documents\NOPCommerce2\Presentation\Nop.Web\Plugins\Payments.CardstreamHosted\Nop.Plugin.Payments.CardstreamHosted.pdb
+C:\Users\Jack Arthur\Documents\NOPCommerce2\Nop.Plugin.Payments.CardstreamHosted\obj\Debug\Nop.Plugin.Payments.CardstreamHosted.csprojResolveAssemblyReference.cache
+C:\Users\Jack Arthur\Documents\NOPCommerce2\Nop.Plugin.Payments.CardstreamHosted\obj\Debug\Nop.Plugin.Payments.CardstreamHosted.dll
+C:\Users\Jack Arthur\Documents\NOPCommerce2\Nop.Plugin.Payments.CardstreamHosted\obj\Debug\Nop.Plugin.Payments.CardstreamHosted.pdb
+C:\Users\Matthew\Downloads\nopCommerce-release-3.90\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Payments.CardstreamHosted\Views\Failed.cshtml
+C:\Users\Matthew\Downloads\nopCommerce-release-3.90\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Payments.CardstreamHosted\Description.txt
+C:\Users\Matthew\Downloads\nopCommerce-release-3.90\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Payments.CardstreamHosted\Web.config
+C:\Users\Matthew\Downloads\nopCommerce-release-3.90\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Payments.CardstreamHosted\Views\Configure.cshtml
+C:\Users\Matthew\Downloads\nopCommerce-release-3.90\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Payments.CardstreamHosted\Views\Web.config
+C:\Users\Matthew\Downloads\nopCommerce-release-3.90\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Payments.CardstreamHosted\logo.jpg
+C:\Users\Matthew\Downloads\nopCommerce-release-3.90\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Payments.CardstreamHosted\Nop.Plugin.Payments.CardstreamHosted.dll.config
+C:\Users\Matthew\Downloads\nopCommerce-release-3.90\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Payments.CardstreamHosted\Nop.Plugin.Payments.CardstreamHosted.dll
+C:\Users\Matthew\Downloads\nopCommerce-release-3.90\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Payments.CardstreamHosted\Nop.Plugin.Payments.CardstreamHosted.pdb
+C:\Users\Matthew\Downloads\nopCommerce-release-3.90\nopCommerce-release-3.90\src\Plugins\Nop.Plugin.Payments.CardstreamHosted\obj\Debug\Nop.Plugin.Payments.CardstreamHosted.csprojResolveAssemblyReference.cache
+C:\Users\Matthew\Downloads\nopCommerce-release-3.90\nopCommerce-release-3.90\src\Plugins\Nop.Plugin.Payments.CardstreamHosted\obj\Debug\Nop.Plugin.Payments.CardstreamHosted.dll
+C:\Users\Matthew\Downloads\nopCommerce-release-3.90\nopCommerce-release-3.90\src\Plugins\Nop.Plugin.Payments.CardstreamHosted\obj\Debug\Nop.Plugin.Payments.CardstreamHosted.pdb
