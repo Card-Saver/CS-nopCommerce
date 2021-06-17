@@ -1,38 +1,51 @@
+# P3 Payment Gateway for NopCommerce
 
-**Cardstream Hosted Form Payment for NopCommerce 3.8**
---------------------------------------------------
-This module allows you to pay with credit/debit card, paypal and many more payment methods by using the Cardstream Payment Gateway.
+**Compatibility**
 
-## Installation**
+**Compatible with NopCommerce 4.20 and up**
 
-**On a Visual Studio solution of NopCommerce**
+Supports Hosted integration
 
-1. Drag the Nop.Plugin.Payments.CardstreamHosted folder to the src/Plugins
+## Installation
+**Step 1:** Log In to Admin Panel and from menu Configurations -> Local Plugins
 
-2. Go To Visual Studio and right-click on the Plugins folder in Solution Explorer
+**Step 2:** Find `Upload plugin or theme` button and upload `Payments.P3Gateway.zip` file, 
 
-3. Hover over Add and click on Existing Project.
+**Step 3:** Find on `Configuration → Payment methods` then click on the `Edit`  next to the `Payments.P3Gateway` and select the `Is active` checkbox and finally `Update`.
 
-4. Find the CardstreamHosted plugin project (.csproj) file in the 'Add Existing Project' window and click Open
+**Step 4:** Configure the plugin settings by clicking the `Configure` button
 
-5. Rebuild the solution
+## Manual Installation
+**Step 1:** upload to build environment the contents from `httpdocs` folder, 
+build the plugin project and then publish the whole solution/project 
 
-6. Click on the CardstreamHosted plugin in the Plugins folder
+**Note:** following the `Dockerfile` used for build by platform team this will be:
+https://github.com/nopSolutions/nopCommerce/blob/develop/Dockerfile
 
-7. Rebuild the CardstreamHosted plugin from the build toolbar item
+    ...
+    WORKDIR /src/Plugins/Nop.Plugin.Widgets.NivoSlider
+    RUN dotnet build Nop.Plugin.Widgets.NivoSlider.csproj -c Release
 
-**On a compiled Visual Studio solution of NopCommerce**
+    # build plugin
+    WORKDIR /src/Plugins/Nop.Plugin.Payments.P3Gateway
+    RUN dotnet build Nop.Plugin.Payments.P3Gateway.csproj -c Release
 
-1. Upload the plugin (Payments.CardstreamHosted directory) to the /plugins folder in your nopCommerce directory.
+    # publish project
+    WORKDIR /src/Presentation/Nop.Web   
+    RUN dotnet publish Nop.Web.csproj -c Release -o /app/published    
+    ...
 
-2. Restart your application (or click Reload list of plugins button).
+**Step 1:** Upload zip file to 
 
-3. Scroll down through the list of plugins to find the newly installed plugin.
+**Step 2:** Click on `Configuration → Local plugins` then click on the `Install` link to install the plugin.
 
-4. Click on the Install link to install the plugin.
+**Step 3:** Go to `Configuration → Local plugins`. Enable the plugin by clicking the `Edit` button
+and checking the `Is enabled` checkbox.
 
-5. The plugin is displayed in the Plugins windows (Configuration ? Plugins ? Local Plugins).
+**Step 4:** Configure the plugin settings by clicking the `Configure` button
 
-6. Go to Configuration -> Payment -> Payment Methods and click Edit next to the Cardstream Plugin, tick the "Is active" box and then click Configure
+## FAQ
+**More info about plugins in NopCommerce.**
+https://docs.nopcommerce.com/en/getting-started/advanced-configuration/plugins-in-nopcommerce.html
 
-7. Enter your details into the form and click Save
+

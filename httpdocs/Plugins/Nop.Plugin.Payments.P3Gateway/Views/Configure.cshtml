@@ -1,0 +1,81 @@
+﻿@model Nop.Plugin.Payments.P3Gateway.Models.ConfigurationModel
+@{
+    Layout = "_ConfigurePlugin";
+}
+
+@await Component.InvokeAsync("StoreScopeConfiguration")
+
+<form asp-controller="P3Gateway" asp-action="Configure" method="post">
+    <div class="cards-group">
+        <div class="card card-default">
+            <div class="card-body">
+                <p>@T("Plugins.Payments.P3Gateway.Instructions")</p>
+                <div class="form-group row">
+                    <div class="col-md-3">
+                        <nop-override-store-checkbox asp-for="MerchantId_OverrideForStore" asp-input="MerchantId" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                        <nop-label asp-for="MerchantId" />
+                    </div>
+                    <div class="col-md-9">
+                        <nop-editor asp-for="MerchantId" />
+                        <span asp-validation-for="MerchantId"></span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-md-3">
+                        <nop-override-store-checkbox asp-for="Secret_OverrideForStore" asp-input="Secret" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                        <nop-label asp-for="Secret" />
+                    </div>
+                    <div class="col-md-9">
+                        <nop-editor asp-for="Secret" />
+                        <span asp-validation-for="Secret"></span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-md-3">
+                        <nop-override-store-checkbox asp-for="IntegrationModeId_OverrideForStore" asp-input="IntegrationModeId" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                        <nop-label asp-for="IntegrationModeId" />
+                    </div>
+                    <div class="col-md-9">
+                        <nop-select asp-for="IntegrationModeId" asp-items="Model.IntegrationModeValues" />
+                        <span asp-validation-for="IntegrationModeId"></span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-md-3">
+                        <nop-override-store-checkbox asp-for="GatewayUrl_OverrideForStore" asp-input="GatewayUrl" asp-store-scope="@Model.ActiveStoreScopeConfiguration"/>
+                        <nop-label asp-for="GatewayUrl"/>
+                    </div>
+                    <div class="col-md-9">
+                        <nop-editor asp-for="GatewayUrl"/>
+                        <span asp-validation-for="GatewayUrl"></span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-md-3">
+                        <nop-override-store-checkbox asp-for="CurrencyExponent_OverrideForStore" asp-input="CurrencyExponent" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                        <nop-label asp-for="CurrencyExponent" />
+                    </div>
+                    <div class="col-md-9">
+                        <nop-editor asp-for="CurrencyExponent" />
+                        <span asp-validation-for="CurrencyExponent"></span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-md-3">
+                        <nop-override-store-checkbox asp-for="DebugMode_OverrideForStore" asp-input="DebugMode" asp-store-scope="@Model.ActiveStoreScopeConfiguration"/>
+                        <nop-label asp-for="DebugMode"/>
+                    </div>
+                    <div class="col-md-9">
+                        <nop-editor asp-for="DebugMode"/>
+                        <span asp-validation-for="DebugMode"></span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-md-9 offset-md-3">
+                        <button type="submit" name="save" class="btn btn-primary">@T("Admin.Common.Save")</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

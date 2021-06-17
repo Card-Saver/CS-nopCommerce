@@ -1,0 +1,11 @@
+{
+  "Group": "Payment methods",
+  "FriendlyName": "P3 Gateway",
+  "SystemName": "Payments.P3Gateway",
+  "Version": "1.0",
+  "SupportedVersions": [ "4.40", "4.50" ],
+  "Author": "payment network team",
+  "DisplayOrder": 1,
+  "FileName": "Nop.Plugin.Payments.P3Gateway.dll",
+  "Description": "This plugin allows paying via P3 Gateway"
+}

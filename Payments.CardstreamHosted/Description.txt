@@ -1,9 +1,0 @@
-﻿Group: Payment methods
-FriendlyName: Cardstream Hosted
-SystemName: Payments.CardstreamHosted
-Version: 1.00
-SupportedVersions: 3.90
-Author: Cardstream
-DisplayOrder: 1
-FileName: Nop.Plugin.Payments.CardstreamHosted.dll
-Description: This plugin allows paying with a Cardstream hosted form integration 
