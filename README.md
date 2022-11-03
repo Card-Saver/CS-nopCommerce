@@ -50,4 +50,4 @@ and checking the `Is enabled` checkbox.
 **More info about plugins in NopCommerce.**
 https://docs.nopcommerce.com/en/getting-started/advanced-configuration/plugins-in-nopcommerce.html
 
-
+Support Email: online.support@card-saver.co.uk
